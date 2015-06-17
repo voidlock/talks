@@ -83,11 +83,16 @@ func parseFiles(files ...File) (*template.Template, error) {
 	return tmpl, nil
 }
 
+func serveIndex(w http.ResponseWriter, r *http.Request) {
+	http.NotFound(w, r)
+}
+
 func main() {
 	fs := http.FileServer(http.Dir("static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	http.HandleFunc("/", serveSlides)
+	http.HandleFunc("/slides/", serveSlides)
+	http.HandleFunc("/", serveIndex)
 
 	port := os.Getenv("PORT")
 	log.Println("Listening on port", port)
