@@ -1,1 +1,1 @@
-web: ./talks
+web: talks
