@@ -91,7 +91,7 @@ func main() {
 	fs := http.FileServer(http.Dir("static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	http.HandleFunc("/slides/", serveSlides)
+	http.Handle("/slides/", http.StripPrefix("/slides", http.HandlerFunc(serveSlides)))
 	http.HandleFunc("/", serveIndex)
 
 	port := os.Getenv("PORT")
