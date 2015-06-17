@@ -414,29 +414,53 @@ template: inverse
 # Resources
 
 ---
-template: explicit
+.left-column[
+## Resources
+### - Curated
+]
 
-## Lucky for me, someone has already done a great job here.
-### [https://github.com/lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)
+.right-column[
+Lucky for me, someone has already done a great job here.
 
----
-template: explicit
+https://github.com/lukasz-madon/awesome-remote-job
 
 ![Awesome Remote Job](/static/awesome-remote-job.png)
+]
 
 ---
-template: explicit
+.left-column[
+## Resources
+### - Curated
+### - Books
+]
 
-## Slides for this talk
+.right-column[
+### Remote: Office Not Required
+http://37signals.com/remote/
 
+### The Year Without Pants
+http://scottberkun.com/yearwithoutpants/
+
+.footnote[_See the curated list for more_]
+]
+
+---
+.left-column[
+## Resources
+### - Curated
+### - Books
+### - Talks
+]
+
+.right-column[
+### Slides for this talk
 https://voidlock-talks.herokuapp.com/slides/hhc/remote#1
 
----
-template: explicit
-
-## Source for this talk
-
+### Source for this talk
 https://github.com/voidlock/talks
+
+.footnote[_All jokes aside, just checkout the curated list for more talks_]
+]
 
 ---
 template: inverse
@@ -449,12 +473,18 @@ template: inverse
 ## Links
 ]
 .right-column[
-### Awesome Remote Job
+#### Curated List of Resources
 https://github.com/lukasz-madon/awesome-remote-job
 
-### Slides
+#### Remote: Office Not Required
+http://37signals.com/remote/
+
+#### The Year Without Pants
+http://scottberkun.com/yearwithoutpants/
+
+#### Slides
 https://voidlock-talks.herokuapp.com/slides/hhc/remote#1
 
-### Source
+#### Source
 https://github.com/voidlock/talks
 ]
