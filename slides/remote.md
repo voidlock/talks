@@ -442,3 +442,19 @@ https://github.com/voidlock/talks
 template: inverse
 
 # Q&A
+
+---
+
+.left-column[
+## Links
+]
+.right-column[
+### Awesome Remote Job
+https://github.com/lukasz-madon/awesome-remote-job
+
+### Slides
+https://voidlock-talks.herokuapp.com/slides/hhc/remote#1
+
+### Source
+https://github.com/voidlock/talks
+]
