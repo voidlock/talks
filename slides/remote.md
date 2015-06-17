@@ -431,6 +431,9 @@ template: explicit
 
 https://voidlock-talks.herokuapp.com/slides/hhc/remote#1
 
+---
+template: explicit
+
 ## Source for this talk
 
 https://github.com/voidlock/talks
